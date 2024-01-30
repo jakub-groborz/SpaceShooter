@@ -1,0 +1,103 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("../backgorund.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .game-wrapper {
+  height: 800px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .game-wrapper #player {
+  width: 50px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: auto;
+  z-index: 1;
+  background-image: url("../img/rocket.png");
+  background-size: cover;
+  background-position: center;
+  display: none;
+}
+body .game-wrapper .bullet {
+  position: absolute;
+  bottom: 0;
+  width: 10px;
+  height: 30px;
+  background-color: rgb(255, 136, 0);
+}
+body .game-wrapper .alien {
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 40px;
+  z-index: 1;
+  background-image: url("../img/ufo.png");
+  background-size: cover;
+  background-position: center;
+}
+body .game-wrapper .restart {
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+body .score {
+  font-size: 5rem;
+  color: white;
+  margin: 0;
+}
+body .instructions {
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  background-color: black;
+  padding: 2rem;
+  border-radius: 20px;
+}
+body .instructions .instructions-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
