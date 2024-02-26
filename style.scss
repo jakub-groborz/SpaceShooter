@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+	font-family: sans-serif;
 	background-color: rgb(0, 0, 0);
 	height: 100vh;
 	box-sizing: border-box;
@@ -18,9 +18,9 @@ body {
 		background-color: rgba($color: #000000, $alpha: 0.7);
 		position: relative;
 		overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		#player {
 			width: 50px;
 			height: 80px;
@@ -29,52 +29,52 @@ body {
 			left: 50%;
 			right: auto;
 			z-index: 1;
-            background-image: url('../img/rocket.png');
-            background-size: cover;
-            background-position: center;
-            display: none;
+			background-image: url('../img/rocket.png');
+			background-size: cover;
+			background-position: center;
+			display: none;
 		}
 		.bullet {
 			position: absolute;
 			bottom: 0;
 			width: 10px;
 			height: 30px;
-            background-color: rgb(255, 136, 0);
+			background-color: rgb(255, 136, 0);
 		}
 		.alien {
 			position: absolute;
 			top: 0;
-            width: 80px;
+			width: 80px;
 			height: 40px;
-            z-index: 1;
-            background-image: url('../img/ufo.png');
-            background-size: cover;
-            background-position: center;
+			z-index: 1;
+			background-image: url('../img/ufo.png');
+			background-size: cover;
+			background-position: center;
 		}
-        .restart {
-            font-size: 2rem;
-            padding: 2rem;
-            border-radius: 20px;
-            cursor: pointer;
-        }
+		.restart {
+			font-size: 2rem;
+			padding: 2rem;
+			border-radius: 20px;
+			cursor: pointer;
+		}
 	}
-    .score {
-        font-size: 5rem;
-        color: white;
-        margin: 0;
-    }
-    .instructions {
-		// display: none;
+	.score {
+		font-size: 3em;
+		color: white;
+		margin: 0;
+		font-weight: normal;
+	}
+	.instructions {
 		position: absolute;
-        top: 50%;
+		top: 50%;
 		bottom: auto;
 		transform: translateY(-50%);
-        color: white;
-        font-size: 2rem;
+		color: white;
+		font-size: 2rem;
 		text-align: center;
 		background-color: black;
-        padding: 2rem;
-        border-radius: 20px;
+		padding: 2rem;
+		border-radius: 20px;
 		.instructions-button {
 			position: absolute;
 			top: 1rem;
@@ -83,5 +83,8 @@ body {
 			border-radius: 10px;
 			cursor: pointer;
 		}
-    }
+		p {
+			font-size: 1em;
+		}
+	}
 }

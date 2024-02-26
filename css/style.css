@@ -76,9 +76,10 @@ body .game-wrapper .restart {
   cursor: pointer;
 }
 body .score {
-  font-size: 5rem;
+  font-size: 3em;
   color: white;
   margin: 0;
+  font-weight: normal;
 }
 body .instructions {
   position: absolute;
@@ -100,4 +101,7 @@ body .instructions .instructions-button {
   font-size: 1.5rem;
   border-radius: 10px;
   cursor: pointer;
+}
+body .instructions p {
+  font-size: 1em;
 }/*# sourceMappingURL=style.css.map */
