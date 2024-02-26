@@ -24,7 +24,9 @@ body {
   background-repeat: no-repeat;
 }
 body .game-wrapper {
+  min-height: 50px;
   height: 800px;
+  max-height: 70%;
   width: 500px;
   background-color: rgba(0, 0, 0, 0.7);
   position: relative;
@@ -80,6 +82,12 @@ body .score {
   color: white;
   margin: 0;
   font-weight: normal;
+}
+body .score:first-child {
+  padding-top: 0.5em;
+}
+body .score:nth-child(2) {
+  padding-bottom: 0.5em;
 }
 body .instructions {
   position: absolute;
